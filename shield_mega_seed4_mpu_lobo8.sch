@@ -6880,9 +6880,14 @@ general purpose rectifier, 1 A</description>
 </segment>
 <segment>
 <pinref part="RESET" gate="1" pin="P"/>
-<wire x1="27.94" y1="86.36" x2="22.86" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="86.36" x2="25.4" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="GND11" gate="1" pin="GND"/>
+<wire x1="25.4" y1="86.36" x2="22.86" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="83.82" x2="22.86" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="RESET" gate="1" pin="P1"/>
+<wire x1="27.94" y1="83.82" x2="25.4" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="83.82" x2="25.4" y2="86.36" width="0.1524" layer="91"/>
+<junction x="25.4" y="86.36"/>
 </segment>
 <segment>
 <pinref part="S2" gate="1" pin="S"/>
