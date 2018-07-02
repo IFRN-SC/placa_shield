@@ -15,7 +15,7 @@
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
@@ -144,7 +144,6 @@
 <board>
 <plain>
 <wire x1="98.73" y1="8.89" x2="98.73" y2="81.27" width="0" layer="20"/>
-<wire x1="98.73" y1="81.27" x2="-0.635" y2="81.27" width="0" layer="20"/>
 <rectangle x1="45.9867" y1="70.2183" x2="47.8155" y2="70.2437" layer="21"/>
 <rectangle x1="48.4759" y1="70.2183" x2="50.3047" y2="70.2437" layer="21"/>
 <rectangle x1="45.9359" y1="70.2437" x2="47.8663" y2="70.2691" layer="21"/>
@@ -4207,12 +4206,15 @@
 <rectangle x1="2.1336" y1="43.952159375" x2="2.25551875" y2="44.074078125" layer="22" rot="R90"/>
 <text x="1.3208" y="64.84111875" size="1.9304" layer="21" font="vector" rot="R270">   Robótica IFRN-SC v2.0</text>
 <hole x="56.388" y="14.478" drill="5.08"/>
-<hole x="27.686" y="75.184" drill="5.08"/>
-<hole x="5.334" y="74.93" drill="5.08"/>
+<hole x="40.64" y="75.438" drill="5.08"/>
 <wire x1="98.552" y1="8.89" x2="48.006" y2="8.89" width="0" layer="20"/>
 <wire x1="48.006" y1="8.89" x2="40.894" y2="16.002" width="0" layer="20"/>
 <wire x1="40.894" y1="16.002" x2="-0.508" y2="16.002" width="0" layer="20"/>
-<wire x1="-0.508" y1="16.002" x2="-0.508" y2="81.28" width="0" layer="20"/>
+<wire x1="-0.508" y1="16.002" x2="-0.508" y2="65.532" width="0" layer="20"/>
+<wire x1="98.806" y1="81.28" x2="36.322" y2="81.28" width="0" layer="20"/>
+<wire x1="6.858" y1="72.898" x2="-0.508" y2="65.532" width="0" layer="20"/>
+<wire x1="27.94" y1="72.898" x2="36.322" y2="81.28" width="0" layer="20"/>
+<wire x1="6.858" y1="72.898" x2="27.94" y2="72.898" width="0" layer="20"/>
 </plain>
 <libraries>
 <library name="con-molex">
