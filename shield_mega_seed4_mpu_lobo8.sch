@@ -6813,6 +6813,7 @@ general purpose rectifier, 1 A</description>
 <instance part="B2" gate="G$1" x="83.82" y="129.54" rot="R180"/>
 <instance part="SUPPLY5" gate="G$1" x="109.22" y="134.62"/>
 <instance part="GND4" gate="1" x="119.38" y="124.46"/>
+<instance part="RASP-SUPPLY1" gate="-2" x="-5.08" y="58.42" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -6844,6 +6845,10 @@ general purpose rectifier, 1 A</description>
 <wire x1="-2.54" y1="55.88" x2="5.08" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="55.88" x2="5.08" y2="53.34" width="0.1524" layer="91"/>
 <junction x="5.08" y="53.34"/>
+<pinref part="RASP-SUPPLY1" gate="-2" pin="S"/>
+<wire x1="-2.54" y1="58.42" x2="5.08" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="58.42" x2="5.08" y2="55.88" width="0.1524" layer="91"/>
+<junction x="5.08" y="55.88"/>
 </segment>
 <segment>
 <pinref part="GND2" gate="1" pin="GND"/>
