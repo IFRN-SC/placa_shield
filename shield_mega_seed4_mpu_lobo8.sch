@@ -6670,7 +6670,7 @@ general purpose rectifier, 1 A</description>
 </class>
 </classes>
 <parts>
-<part name="B1" library="SparkFun-Boards3" deviceset="ARDUINO_MEGA_R3" device="FULL"/>
+<part name="B1" library="SparkFun-Boards3" deviceset="ARDUINO_MEGA_R3" device="FULL" value=""/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" deviceset="VIN" device=""/>
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" deviceset="VIN" device=""/>
 <part name="GND1" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -6680,7 +6680,6 @@ general purpose rectifier, 1 A</description>
 <part name="SERVO-A" library="con-molex" deviceset="22-23-2031" device="" value=""/>
 <part name="SERVO-B" library="con-molex" deviceset="22-23-2031" device="" value=""/>
 <part name="MOTORES-DC" library="con-molex" deviceset="22-23-2041" device="" value=""/>
-<part name="MOTOR-DC-SUPPLY" library="con-molex" deviceset="22-23-2021" device="" value=""/>
 <part name="SUPPLY6" library="SparkFun-PowerSymbols" deviceset="VDD" device=""/>
 <part name="SUPPLY7" library="SparkFun-PowerSymbols" deviceset="VDD" device=""/>
 <part name="RASP-SUPPLY1" library="con-molex" deviceset="22-23-2021" device="" value=""/>
@@ -6707,14 +6706,10 @@ general purpose rectifier, 1 A</description>
 <part name="GND10" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="RESET" library="switch-omron" deviceset="10-XX" device=""/>
 <part name="GND11" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="MEDIDOR_TENSãO" library="con-molex" deviceset="22-23-2031" device="" value=""/>
-<part name="REFLET-SUPPLY" library="con-molex" deviceset="22-23-2021" device="" value=""/>
-<part name="SUPPLY4" library="SparkFun-PowerSymbols" deviceset="VIN" device=""/>
 <part name="SONAR_DIR" library="con-molex" deviceset="22-23-2041" device="" value=""/>
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="SONAR_ESQ" library="con-molex" deviceset="22-23-2041" device="" value=""/>
 <part name="SUPPLY10" library="supply2" deviceset="+5V/1" device=""/>
-<part name="SUPPLY11" library="supply2" deviceset="+5V/1" device=""/>
 <part name="U1" library="gy-521" deviceset="GY-521" device="MPU6050"/>
 <part name="GND12" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY12" library="supply2" deviceset="+5V/1" device=""/>
@@ -6736,9 +6731,9 @@ general purpose rectifier, 1 A</description>
 </plain>
 <instances>
 <instance part="B1" gate="G$1" x="83.82" y="45.72"/>
-<instance part="SUPPLY1" gate="G$1" x="5.08" y="-2.54"/>
+<instance part="SUPPLY1" gate="G$1" x="10.16" y="15.24"/>
 <instance part="SUPPLY2" gate="G$1" x="48.26" y="99.06"/>
-<instance part="GND1" gate="1" x="5.08" y="-12.7"/>
+<instance part="GND1" gate="1" x="10.16" y="5.08"/>
 <instance part="GND2" gate="1" x="48.26" y="-7.62"/>
 <instance part="SONAR_FRONT" gate="-1" x="-7.62" y="78.74" rot="R180"/>
 <instance part="SONAR_FRONT" gate="-2" x="111.76" y="83.82"/>
@@ -6755,12 +6750,9 @@ general purpose rectifier, 1 A</description>
 <instance part="MOTORES-DC" gate="-2" x="58.42" y="22.86" rot="R180"/>
 <instance part="MOTORES-DC" gate="-3" x="58.42" y="25.4" rot="R180"/>
 <instance part="MOTORES-DC" gate="-4" x="58.42" y="27.94" rot="R180"/>
-<instance part="MOTOR-DC-SUPPLY" gate="-1" x="-7.62" y="91.44" rot="R180"/>
-<instance part="MOTOR-DC-SUPPLY" gate="-2" x="-5.08" y="48.26" rot="R180"/>
-<instance part="SUPPLY6" gate="VDD" x="10.16" y="-5.08"/>
+<instance part="SUPPLY6" gate="VDD" x="15.24" y="12.7"/>
 <instance part="SUPPLY7" gate="VDD" x="7.62" y="104.14"/>
 <instance part="RASP-SUPPLY1" gate="-1" x="-7.62" y="101.6" rot="R180"/>
-<instance part="RASP-SUPPLY1" gate="-2" x="-5.08" y="38.1" rot="R180"/>
 <instance part="RASP-COM" gate="-1" x="91.44" y="109.22" rot="R180"/>
 <instance part="RASP-COM" gate="-2" x="91.44" y="106.68" rot="R180"/>
 <instance part="REFLETANCIA" gate="-1" x="45.72" y="71.12" rot="R180"/>
@@ -6792,12 +6784,6 @@ general purpose rectifier, 1 A</description>
 <instance part="GND10" gate="1" x="177.8" y="20.32"/>
 <instance part="RESET" gate="1" x="33.02" y="86.36" rot="R270"/>
 <instance part="GND11" gate="1" x="22.86" y="81.28"/>
-<instance part="MEDIDOR_TENSãO" gate="-1" x="-7.62" y="88.9" rot="R180"/>
-<instance part="MEDIDOR_TENSãO" gate="-2" x="-5.08" y="35.56" rot="R180"/>
-<instance part="MEDIDOR_TENSãO" gate="-3" x="-5.08" y="63.5" rot="R180"/>
-<instance part="REFLET-SUPPLY" gate="-1" x="-5.08" y="60.96" rot="R180"/>
-<instance part="REFLET-SUPPLY" gate="-2" x="-5.08" y="50.8" rot="R180"/>
-<instance part="SUPPLY4" gate="G$1" x="7.62" y="91.44"/>
 <instance part="SONAR_DIR" gate="-1" x="-7.62" y="76.2" rot="R180"/>
 <instance part="SONAR_DIR" gate="-2" x="124.46" y="66.04"/>
 <instance part="SONAR_DIR" gate="-3" x="124.46" y="60.96"/>
@@ -6808,7 +6794,6 @@ general purpose rectifier, 1 A</description>
 <instance part="SONAR_ESQ" gate="-3" x="124.46" y="63.5"/>
 <instance part="SONAR_ESQ" gate="-4" x="-5.08" y="55.88" rot="R180"/>
 <instance part="SUPPLY10" gate="G$1" x="40.64" y="96.52"/>
-<instance part="SUPPLY11" gate="G$1" x="5.08" y="66.04"/>
 <instance part="U1" gate="G$1" x="162.56" y="91.44"/>
 <instance part="GND12" gate="1" x="137.16" y="111.76" rot="R180"/>
 <instance part="SUPPLY12" gate="G$1" x="144.78" y="111.76"/>
@@ -6822,9 +6807,9 @@ general purpose rectifier, 1 A</description>
 <instance part="R8" gate="G$1" x="134.62" y="12.7" rot="R180"/>
 <instance part="VERDE" gate="G$1" x="154.94" y="12.7" rot="R90"/>
 <instance part="COR-I2C" gate="-4" x="109.22" y="38.1"/>
-<instance part="ALIMENTACAO" gate="-1" x="-2.54" y="-7.62" rot="R180"/>
-<instance part="ALIMENTACAO" gate="-2" x="-2.54" y="-10.16" rot="R180"/>
-<instance part="ALIMENTACAO" gate="-3" x="-2.54" y="-5.08" rot="R180"/>
+<instance part="ALIMENTACAO" gate="-1" x="2.54" y="10.16" rot="R180"/>
+<instance part="ALIMENTACAO" gate="-2" x="2.54" y="7.62" rot="R180"/>
+<instance part="ALIMENTACAO" gate="-3" x="2.54" y="12.7" rot="R180"/>
 <instance part="B2" gate="G$1" x="83.82" y="129.54" rot="R180"/>
 <instance part="SUPPLY5" gate="G$1" x="109.22" y="134.62"/>
 <instance part="GND4" gate="1" x="119.38" y="124.46"/>
@@ -6835,14 +6820,13 @@ general purpose rectifier, 1 A</description>
 <net name="GND" class="0">
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="0" y1="-10.16" x2="5.08" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="7.62" x2="10.16" y2="7.62" width="0.1524" layer="91"/>
 <pinref part="ALIMENTACAO" gate="-2" pin="S"/>
 </segment>
 <segment>
 <pinref part="GND3" gate="1" pin="GND"/>
-<wire x1="5.08" y1="35.56" x2="5.08" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="SERVO-B" gate="-3" pin="S"/>
-<wire x1="5.08" y1="38.1" x2="5.08" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="35.56" x2="5.08" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="40.64" x2="-2.54" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="SERVO-A" gate="-3" pin="S"/>
 <wire x1="-2.54" y1="43.18" x2="5.08" y2="43.18" width="0.1524" layer="91"/>
@@ -6851,25 +6835,11 @@ general purpose rectifier, 1 A</description>
 <junction x="5.08" y="43.18"/>
 <wire x1="5.08" y1="45.72" x2="5.08" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="SONAR_FRONT" gate="-4" pin="S"/>
-<wire x1="5.08" y1="50.8" x2="5.08" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="48.26" x2="5.08" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="53.34" x2="5.08" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="-2.54" y1="45.72" x2="5.08" y2="45.72" width="0.1524" layer="91"/>
 <junction x="5.08" y="45.72"/>
-<pinref part="RASP-SUPPLY1" gate="-2" pin="S"/>
-<wire x1="-2.54" y1="38.1" x2="5.08" y2="38.1" width="0.1524" layer="91"/>
-<junction x="5.08" y="38.1"/>
-<pinref part="MEDIDOR_TENSãO" gate="-2" pin="S"/>
-<wire x1="-2.54" y1="35.56" x2="5.08" y2="35.56" width="0.1524" layer="91"/>
-<junction x="5.08" y="35.56"/>
-<pinref part="REFLET-SUPPLY" gate="-2" pin="S"/>
-<wire x1="-2.54" y1="50.8" x2="5.08" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="MOTOR-DC-SUPPLY" gate="-2" pin="S"/>
-<wire x1="-2.54" y1="48.26" x2="5.08" y2="48.26" width="0.1524" layer="91"/>
-<junction x="5.08" y="48.26"/>
 <pinref part="SONAR_DIR" gate="-4" pin="S"/>
 <wire x1="-2.54" y1="53.34" x2="5.08" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="53.34" x2="5.08" y2="50.8" width="0.1524" layer="91"/>
-<junction x="5.08" y="50.8"/>
 <pinref part="SONAR_ESQ" gate="-4" pin="S"/>
 <wire x1="-2.54" y1="55.88" x2="5.08" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="55.88" x2="5.08" y2="53.34" width="0.1524" layer="91"/>
@@ -6982,18 +6952,9 @@ general purpose rectifier, 1 A</description>
 </segment>
 <segment>
 <pinref part="SUPPLY1" gate="G$1" pin="VIN"/>
-<wire x1="5.08" y1="-5.08" x2="5.08" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="12.7" x2="10.16" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="ALIMENTACAO" gate="-3" pin="S"/>
-<wire x1="0" y1="-5.08" x2="5.08" y2="-5.08" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="MOTOR-DC-SUPPLY" gate="-1" pin="S"/>
-<pinref part="SUPPLY4" gate="G$1" pin="VIN"/>
-<wire x1="-5.08" y1="91.44" x2="7.62" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="MEDIDOR_TENSãO" gate="-1" pin="S"/>
-<wire x1="-5.08" y1="88.9" x2="7.62" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="88.9" x2="7.62" y2="91.44" width="0.1524" layer="91"/>
-<junction x="7.62" y="91.44"/>
+<wire x1="5.08" y1="12.7" x2="10.16" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VDD" class="0">
@@ -7014,8 +6975,8 @@ general purpose rectifier, 1 A</description>
 <segment>
 <pinref part="ALIMENTACAO" gate="-1" pin="S"/>
 <pinref part="SUPPLY6" gate="VDD" pin="VDD"/>
-<wire x1="0" y1="-7.62" x2="10.16" y2="-7.62" width="0.1524" layer="91"/>
-<wire x1="10.16" y1="-7.62" x2="10.16" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="10.16" x2="15.24" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="10.16" x2="15.24" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -7243,15 +7204,6 @@ general purpose rectifier, 1 A</description>
 <pinref part="B1" gate="G$1" pin="5V@0"/>
 <wire x1="66.04" y1="93.98" x2="40.64" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="SUPPLY10" gate="G$1" pin="+5V/1"/>
-</segment>
-<segment>
-<pinref part="MEDIDOR_TENSãO" gate="-3" pin="S"/>
-<pinref part="SUPPLY11" gate="G$1" pin="+5V/1"/>
-<wire x1="-2.54" y1="63.5" x2="5.08" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="REFLET-SUPPLY" gate="-1" pin="S"/>
-<wire x1="-2.54" y1="60.96" x2="5.08" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="60.96" x2="5.08" y2="63.5" width="0.1524" layer="91"/>
-<junction x="5.08" y="63.5"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="VCC"/>
