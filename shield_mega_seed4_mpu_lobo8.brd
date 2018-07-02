@@ -4207,7 +4207,7 @@
 <rectangle x1="2.25551875" y1="43.70831875" x2="2.3774375" y2="43.8302375" layer="22" rot="R90"/>
 <rectangle x1="2.25551875" y1="44.561759375" x2="2.3774375" y2="44.683678125" layer="22" rot="R90"/>
 <rectangle x1="2.1336" y1="43.952159375" x2="2.25551875" y2="44.074078125" layer="22" rot="R90"/>
-<text x="1.8288" y="68.39711875" size="1.9304" layer="21" font="vector" rot="R270">   Robótica IFRN-SC v1.3</text>
+<text x="1.8288" y="68.39711875" size="1.9304" layer="21" font="vector" rot="R270">   Robótica IFRN-SC v1.4</text>
 <hole x="51.816" y="14.478" drill="5.08"/>
 <hole x="27.686" y="75.184" drill="5.08"/>
 <hole x="5.334" y="74.93" drill="5.08"/>
